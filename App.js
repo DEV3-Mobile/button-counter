@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Button style="button" title="increase" onPress={() => console.log("increase")} />
       <Button style="button" title="decrease" onPress={() => console.log("decrease")} />
-      <Text style="text">you clicked {counter} times</Text>
+      <Text style="text">you clicked 0 times</Text>
       <StatusBar style="auto" />
     </View>
   );
